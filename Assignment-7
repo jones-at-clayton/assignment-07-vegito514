@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<head/>
+<body>
+<footer>
+<p>Author: Keion Williams</p>
+<p><a herf="mailto: hege@example.com">November 13th 2022</a></p>
+</footer>
+<meta charset= utf-8>
+<title> Gaming Everywhere </title>
+
+
+
+<h1>Gaming Everywheae</h1>
+<h2>Looking for Group</h2>
+<p>Input your prefrences</p>
+
+<form>
+<!-- Picking a game to look for -->
+<label for="cb_1"> Rocket League</label>
+<input id="cb_1" type="checkbox" checked="unchecked"><br>
+<label for="cb_2"> Call of Duty</label>
+<input id="cb_2" type="checkbox" checked="unchecked"><br>
+<label for="cb_3"> Destiny 2</label>
+<input id="cb_3" type="checkbox" checked="unchecked"><br>
+
+
+
+
+<fieldset>
+<!-- Picking a state to search for players -->
+  <legend>Select State to search for players:</legend> 
+     <input id="red" type="radio" name="color" value="red" /><label for="red">United States</label><br /> 
+     <input id="blue" type="radio" name="color" value="blue" /><label for="blue">Japan</label><br /> 
+     <input id="green" type="radio" name="color" value="green" /><label for="green">Canada</label> 
+</fieldset>
+
+<!-- give a discription of what their looking for -->
+<label for="ta_1"> Let people know what your looking for</label><br>
+<textarea id="ta_1" ></textarea><br>
+
+<label for="Genre">Choose genre of game:</label>
+<!-- input genre your looking for -->
+<select name="Genre" id="Genre">
+<option value="Action-Adventure">Action-Adventure</option><br>
+<option value="Strategy">Strategy</option>
+<option value="Simulator">Simulator</option>
+<option value="Shooters">Shooters</option>
+<option value="Multiplayer">Multiplayer</option>
+</select><br>
+
+<button> Return to Home Page</button>
+
+<style>
+.myDiv {
+border: 5px outset red;
+background-color: lightblue;
+text-align: center;
+}
+</style>
+<script src="External.js">
+</script>
+</body>
