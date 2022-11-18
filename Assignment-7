@@ -1,13 +1,23 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<head/>
+<meta charset="UTF-8">
+<title> Gaming Everywhere </title>
+<style>
+.myDiv {
+border: 5px outset red;
+background-color: lightblue;
+text-align: center;
+}
+</style>
+</head>
 <body>
 <footer>
-<p>Author: Keion Williams</p>
-<p><a herf="mailto: hege@example.com">November 13th 2022</a></p>
+<p>Author: Keion Williams<br>
+November 20th 2022</p>
 </footer>
-<meta charset= utf-8>
-<title> Gaming Everywhere </title>
+<!-- this is where meta was before -->
+
 
 
 
@@ -18,21 +28,21 @@
 <form>
 <!-- Picking a game to look for -->
 <label for="cb_1"> Rocket League</label>
-<input id="cb_1" type="checkbox" checked="unchecked"><br>
+<input id="cb_1" type="checkbox" name="Game" value="Digital"><br>
 <label for="cb_2"> Call of Duty</label>
-<input id="cb_2" type="checkbox" checked="unchecked"><br>
+<input id="cb_2" type="checkbox" name="Game" value="Digital"><br>
 <label for="cb_3"> Destiny 2</label>
-<input id="cb_3" type="checkbox" checked="unchecked"><br>
-
+<input id="cb_3" type="checkbox" name="Game" value="Digital"><br>
+</form>
 
 
 
 <fieldset>
 <!-- Picking a state to search for players -->
   <legend>Select State to search for players:</legend> 
-     <input id="red" type="radio" name="color" value="red" /><label for="red">United States</label><br /> 
-     <input id="blue" type="radio" name="color" value="blue" /><label for="blue">Japan</label><br /> 
-     <input id="green" type="radio" name="color" value="green" /><label for="green">Canada</label> 
+     <input id="red" type="radio" name="color" value="red"><label for="red">United States</label> 
+     <input id="blue" type="radio" name="color" value="blue"><label for="blue">Japan</label> 
+     <input id="green" type="radio" name="color" value="green"><label for="green">Canada</label> 
 </fieldset>
 
 <!-- give a discription of what their looking for -->
@@ -42,7 +52,7 @@
 <label for="Genre">Choose genre of game:</label>
 <!-- input genre your looking for -->
 <select name="Genre" id="Genre">
-<option value="Action-Adventure">Action-Adventure</option><br>
+<option value="Action-Adventure">Action-Adventure</option>
 <option value="Strategy">Strategy</option>
 <option value="Simulator">Simulator</option>
 <option value="Shooters">Shooters</option>
@@ -51,13 +61,9 @@
 
 <button> Return to Home Page</button>
 
-<style>
-.myDiv {
-border: 5px outset red;
-background-color: lightblue;
-text-align: center;
-}
-</style>
+
+<!-- style tag was here -->
 <script src="External.js">
 </script>
 </body>
+</html>
